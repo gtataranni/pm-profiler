@@ -7,6 +7,7 @@
 # Parameters: customize as needed.
 # A good number of samples is the one that, if doubled, outputs the same flame graph 
 #   (the same proportion of samples per function)
+# NOTE: Be sure that nSamplesPerExec * sleepTimeMin is greater than the running time of the target application
 
 nExec=10
 nSamplesPerExec=600
