@@ -1,9 +1,9 @@
 pm-profiler
 ============
 
-This is an implementation of the poor man's profiler, using stack sampling [[1]](#notes).
+This is an implementation of the _poor man's profiler_, a sample-based profiler [[1]](#notes).
 
-It works by sampling at random time interval a target executable, which is run in gdb.
+It works by sampling at random time interval a target executable run in gdb.
 Samples of the call stack are collected and plotted using [FlameGraphs][flame-github] [[2]](#notes).
 
 Feel free to contribute.
